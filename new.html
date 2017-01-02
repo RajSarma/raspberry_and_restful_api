@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="{{ url_for('new')}}" method="POST">
+  <input type="radio" name="status" value="ON"> ON<br>
+  <input type="radio" name="status" value="OFF"> OFF<br>
+  <label for= "delay1">please enter your delay:</label>
+  <input type="number" name="delay1" /><br />
+  <button type="submit" value="submit">submit</button>
+</form>
+
+<p><b>Note:</b> When a user clicks on a radio-button, it becomes checked, and all other radio-buttons with equal name become unchecked.</p>
+
+</body>
+</html>
+
+
+
